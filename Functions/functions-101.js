@@ -25,4 +25,5 @@ let conversion = function (fahrenheit) {
 let oneTemp = conversion(32);
 let otherTemp = conversion(68);
 
+
 console.log(oneTemp, otherTemp);
