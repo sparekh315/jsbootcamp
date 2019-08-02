@@ -22,6 +22,6 @@ let passValid = function(password) {
     }
    
 
-console.log(passValid('adso'));
-console.log(passValid('abeidkdkdkddkdkd'))
-console.log(passValid('abeidkdkdkddkdkdpassword'))
+console.log(passValid('adso')); //false
+console.log(passValid('abeidkdkdkddkdkd')) //true
+console.log(passValid('abeidkdkdkddkdkdpassword')) //false
