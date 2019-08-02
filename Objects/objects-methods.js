@@ -22,6 +22,7 @@ let restuarant = {
     
 }
 
+
 restuarant.seatParty(72);
 console.log(restuarant.checkAvail(4));
 restuarant.removeParty(5);
