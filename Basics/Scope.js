@@ -1,4 +1,28 @@
-//JS uses lexical (static ) scoping.  A var defined in part of your program may not be accessible in another part of your program. 
+// Lexical Scope (Static Scope)
+// Global Scope - Defined outside of all code blocks
+// Local Scope - Defined inside a code block
 
-//global scope - defined outside of all code blocks
-//local Scope - Defined inside a code block. 
+// In a scope you can access variables defined in that scope, or in any parent/ancestor scope
+
+// Global Scope (varOne)
+  // Local Scope (varTwo)
+    // Local Scope (varFour)
+  // Local Scope (varThree)
+
+  let varOne = 'varOne'
+
+  if (true) {
+      console.log(varOne)
+      let varTwo = 'varTwo'
+      console.log(varTwo)
+  
+      if (true) {
+          let varFour = 'varFour'
+      }
+  }
+  
+  if (true) {
+      let varThree = 'varThree'
+  }
+  
+  console.log(varTwo)
