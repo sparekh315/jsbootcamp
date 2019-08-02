@@ -4,6 +4,7 @@ let myBook = {
     pageCount: 400
 }
 
+
 let otherBook = {
     title: 'Another title',
     author: 'another author',
